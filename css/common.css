@@ -1,0 +1,67 @@
+/* Reset */
+html,body{width:100%;height:100%}
+html{overflow-y:scroll}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,form,fieldset,p,button{margin:0;padding:0}
+body,h1,h2,h3,h4,input,button{font-family:Noto Sans KR;font-size:12px;color:#383d41}
+body{background-color:#fff;text-align:center;word-break:break-all;-ms-word-break:break-all}
+img,fieldset,iframe{border:0 none}
+li{list-style:none}
+input,select,button{vertical-align:middle}
+img{vertical-align:top}
+i,em,address{font-style:normal}
+label,button{cursor:pointer}
+button{margin:0;padding:0}
+a{color:#000;text-decoration:none}
+button {position:relative}
+button img{left:-3px;}
+html:first-child select{height:20px;padding-right:6px}
+option{padding-right:6px}
+hr{display:none}
+table{border-collapse:collapse;border-spacing:0}
+
+/*Clear*/
+
+.clear {content:'';display:block;clear:both}
+.clear:after{content:'';display:block;clear:both}
+
+/* header */
+#header {width:100%;height:50px; position: absolute}
+#header .headerwrap {position:fixed; width:100%;height:50px;background-color:#FFC400;z-index:9999}
+#header .menuBtn {display: block;position: fixed;left:10px;top:7px;width:32px;height:32px;background:url(../images/icon_menu.png) no-repeat;background-size:100% 100%;text-indent:-9999em;cursor:pointer}
+#header .headerwrap .logo a {position: fixed;left:calc(50% - 50px);width:100px;height:50px;background:url(../images/logo.png) no-repeat;background-size:100% 100%;cursor:pointer}
+#header .headerwrap .shopping {display: block;position: fixed;right:10px;top:7px;width:32px;height:32px;background:url(../images/icon_shopping.png) no-repeat;background-size:100% 100%;text-indent:-9999em;cursor:pointer}
+
+ /* nav */
+#header .headerwrap #nav:after {content:'';display: block;clear: both}
+#header .headerwrap #nav {display: none;position: fixed;top:50px;width:79%;height:100%; background-color: #fff;opacity: 0.9;padding:0 4%}
+#header .headerwrap #nav p {display:block; width:100%;height:50px;padding:20px 0}
+#header .headerwrap #nav p a {display: inline-block;width:40%;padding:0;line-height:50px;text-align:center;font-size:15px;font-weight:bold}
+#header .headerwrap #nav p :nth-child(1) {border: 3px solid #FFC400;margin-right:5%}
+#header .headerwrap #nav p :nth-child(2) {border: 3px solid #FFC400;margin-left:5%;background-color: #000;color:#fff}
+#nav ul{ width:100%; margin:0; padding:0; }
+	#nav ul.menu li{ position:relative; float:left; width:100%; list-style-type:none; font-size:16px;}
+	#nav ul.menu li a{ display:block; width:100%; height:100%; line-height:50px; text-indent:30px; color:#000; font-weight:bold; text-decoration:none; }
+	#nav ul.menu li a:hover{ background:#eee; }
+	#nav ul.menu li .sub a{ position:relative; float:left; display:block; width:100%; z-index:999; background:#ccc; }
+	#nav ul.menu li .sub a:hover{ background:#444; color:#fff; }
+
+    /* footer */
+#footer {position: relative;height:400px;width:100%;background-color:#666;color:#eee}
+#footer .footermenu {height:200px;width:100%;background-color: #eee;font-size:10px;color:#000}
+#footer .footermenu .fmenu {float: left;width:30%;height:200px;padding-top:10px}
+#footer #fm1 {text-align:left;margin-left:5%}
+#footer #fm2 {text-align:center}
+#footer #fm3 {text-align:right;margin-right:5%}
+#footer #fm1 .txtBig {font-size:16px}
+
+
+#footer .footerInfo {width:100%;height:180px;text-align: center;font-size: 10px;color: #eee}
+#footer .footerInfo p {margin-top:15px}
+#footer .footerInfo address {margin-top:10px}
+#footer .footerInfo ul {margin-top:10px}
+#footer .footerInfo ul li {display:block}
+#footer .footerInfo a {font-size: 10px;color: #eee}
+
+#footer .flogo {position: absolute;display: block; left:3%;top:65%;width:100px;height:50px;background:url(../images/logo_gray.png) no-repeat;background-size:100% 100%;z-index:1000;cursor:pointer}
+
+.swiper-pagination2 span {margin:0 4px}

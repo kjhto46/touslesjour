@@ -1,0 +1,19 @@
+@import url('common.css');
+
+/* cont1 */
+#cont1 {height:50%;margin: 0;padding-top:50px;overflow:hidden;}
+#cont1 .cont1vis {width:100%;height:100%;background:url(../images/newvisual.jpg) no-repeat;background-size:100% auto}
+
+
+
+/* cont2 */
+#cont2 {position: relative;height:auto;margin: 0;overflow:hidden;margin-bottom:10%;}
+#cont2 h1 {text-align: center;font-weight:bold;font-size:20px;padding-top: 10%}
+#cont1 .swiper-container2 {width:100%;height:100%}
+#cont2 .swiper-slide {text-align: center;font-size: 18px;background: #fff}
+
+#cont2 .swiper-wrapper .swiper-slide ul li {float: left;width:50%;height:50%}
+#cont2 .swiper-wrapper .swiper-slide ul li a img {width:80%;height:0%}
+#cont2 .swiper-wrapper .swiper-slide a h2 {text-align:left;margin-left:15%}
+#cont2 .swiper-wrapper .swiper-slide a h2 span {font-weight:bold;font-size:18px}
+

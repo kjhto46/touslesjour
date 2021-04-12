@@ -1,0 +1,120 @@
+@import url('common.css');
+
+button {
+    width: 120px;
+    height: 40px;
+    background-color: #FFC400;
+    border: none;
+    color: white;
+    line-height:40px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 20px;
+    position: absolute;
+    top: 12px;
+    left: 10px;
+}
+
+#container2 {
+    background-color: #fff;
+    width: 100%;
+    padding-bottom: 5%;
+    border-bottom: 2px dashed #FFC400
+}
+
+#container2 h3 {
+    width: 50%;
+    margin: 0 auto;
+    padding: 60px 0 20px 0;
+    color: black;
+    font-size: 20px;
+    text-transform: uppercase
+}
+
+#container2 h1 img {
+    margin: 0 auto;
+    padding: 10px 0 10px 0;
+    width: 180px;
+    height: 90px
+}
+
+#container2 .loginPage {
+    width: 100%;
+    margin:0 auto
+}
+
+#container2 .loginPage .inputText {
+    padding: 10px 0 20px 0
+}
+
+#container2 .loginPage .inputText p {
+    width: 70%;
+    margin: 0 auto;
+    padding: 5px 0
+}
+
+#container2 .loginPage .inputText p input {
+    width: 100%;
+    height: 30px;
+    line-height:30px;
+    font-size: 16px;
+    text-indent: 5px;
+    color: black;
+    border: none;
+    border-bottom: 2px solid #666;
+    padding:0
+}
+
+#container2 .loginPage .inputBox {
+    width: 70%;
+    margin: 0 auto;
+    padding-bottom: 10px
+}
+
+#container2 .loginPage .inputBox input {
+    width: 100%;
+    border: 0;
+    background-color: #e2b009;
+    padding: 10px 0;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor:pointer
+}
+
+#container2 .lookSearch {
+    top: 200px;
+    height: 50px;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 12px;
+    color: #eee;
+    padding-bottom: 20px
+}
+
+#container2 .loginPage .joinSearch {
+    padding-bottom: 10px
+}
+
+.sublogin {
+    display: block;
+    width: 40%;
+    height: 23px;
+    margin: 15px auto;
+    float: left;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #e2b009;
+    color: #fff;
+    text-align: center;
+    line-height: 23px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold
+}
+
+.sublogin2 {
+    float: right
+}

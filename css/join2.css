@@ -1,0 +1,50 @@
+@import url('common.css');
+
+#container4 {
+ background-color: #fff;
+ width:100%;
+ padding-bottom:5%;
+ border-bottom: 2px solid #FFC400;
+}
+
+#container4  h1{
+ width:50%;margin:0 auto;
+ padding:60px 0 40px 0;
+ color:#FFC400;
+ font-size:35px;text-transform:uppercase
+}
+
+
+
+#container4 form {
+width:80%;padding-top:20px;margin:0 auto;
+margin-bottom:50px;border:1px dashed #FFC400
+}
+
+#container4 form table {
+ width:100%;border-collapse:collapse
+}
+#container4 form tbody th {
+    width:30%;padding:5px 0;font-size:13px;color:#797979;
+    }
+#container4 td { 
+ width:70%;padding:5px 0;
+ padding-left:10px;text-align:left;
+}
+#container4 td input {width:80%}
+#container4 #confirm {
+ text-align:center;padding:10px 0;
+ margin:20px 0 20px;
+}
+#container4 #confirm input:first-child {
+ width:20%;margin:5px;padding:5px 0;
+ border:0;background-color:#FFC400;
+ color:#fff;font-size:15px;font-weight:bold;
+ cursor:pointer
+}
+#container4 #confirm input:last-child {
+ width:20%;margin:5px;padding:5px 0;
+ border:0;background-color: #a30033;
+ color:#fff;font-size:15px;font-weight:bold;
+ cursor:pointer
+}
